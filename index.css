@@ -1,0 +1,41 @@
+@media (max-width:2560px) and (min-width: 1440px) {
+    .col-lg-4 {
+        margin-top: 150px;
+        margin-left:400px;
+    }
+}
+ @media (max-width: 1440px) and (min-width: 1024px) {
+    .col-lg-4{
+        margin-top: 150px;
+        margin-left:320px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .col-lg-4{
+        margin-top: 150px;;
+    }
+}
+.container{
+    
+    height: 100vh;
+}
+.col-lg-4{
+    background-image: url(bac2.jpg);
+    background-origin: padding-box;
+    border: 1px solid black;
+    box-shadow: 3px 3px 30px 5px black;
+   
+}
+
+.form-control{
+    padding: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 130px;
+    border-radius: 25px;
+    border-color:black;
+}
+.btn:hover {
+        transform: scale(1.05);
+        transform-origin: bottom;
+}
